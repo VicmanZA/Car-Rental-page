@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Car Rental Website</title>
+    <!-- Link to the CSS -->
+    <link rel="stylesheet" href="stylesr.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo"><img src="img/car pics/—Pngtree—car logo_7689289.png" alt=""></a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#ride">Ride</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+        </ul>
+        <div class="header-btn">
+            <a href="#" class="sign-up">Sign Up</a>
+            <a href="#" class="sign-in">Sign In</a>
+        </div>
+
+    </header>
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="text">
+            <h1><span>Looking</span> to <br> rent a car</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, dignissimos autem, saepe officia debitis , est maxime cupiditate aperiam nemo quis qui vel! </p> 
+            <div class="app-stores">
+                <img src="img/car pics/ios.png" alt="">
+                <img src="img/car pics/512x512.png" alt="">
+              </div>
+        </div>
+
+
+
+        <div class="form-container">
+            <form action="">
+                <div class="input-box">
+                    <span>Location</span>
+                    <input type="search" name="" id=""   placeholder="Search Places">
+                </div>
+                <div class="input-box">
+                    <span>Pick-Up Date</span>
+                    <input type="date" name="" id="">
+                </div>
+                <div class="input-box">
+                    <span>Return Date</span>
+                    <input type="date" name="" id="">
+                </div>
+                <input type="submit" name="" id=""  class="btn">
+            </form>
+        </div>
+    </section>
+    <!-- Ride -->
+    <section class="ride" id="ride">
+        <div class="heading">
+            <span>How It Works</span>
+            <h1>Rent With 3 Easy Steps </h1>
+        </div>
+        <div class="ride-container">
+          <div class="box">
+            <i class='bx bxs-map'></i>
+            <h2>Choose A Location</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quae autem assumenda fuga quisquam ullam!</p>
+          </div>
+          
+          <div class="box">
+            <i class='bx bxs-calendar-check' ></i>
+            <h2>Pick-Up Date</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quae autem assumenda fuga quisquam ullam!</p>
+          </div>
+
+          <div class="box">
+            <i class='bx bxs-calendar-star'></i>
+            <h2>Book A Car</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quae autem assumenda fuga quisquam ullam!</p>
+          </div>
+        </div>
+
+    </section>
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="heading">
+            <span>World Class Services</span>
+            <h1>Take A Look at Our Top Deals <br> From Top Rated Dealers </h1>
+        </div>
+        <div class="services-container">
+            <div class="box">
+               <div class="box-img">
+                  <img src="img/car pics/daniel-jankovic-8CUChfnEovI-unsplash.jpg" alt="">
+               </div> 
+               <p>2012</p>
+               <h3>Land Cruiser</h3>
+               <h2>R747000 | R16000 <span>/month</span></h2>
+               <a href="#"  class="btn">Rent Now</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                   <img src="img/car pics/bestami-sarikaya-73XAgT8DOpo-unsplash-min (1).jpg" alt="">
+                </div> 
+                <p>2018</p>
+                <h3>Toyota Corolla</h3>
+                <h2>R250000| R5000 <span>/month</span></h2>
+                <a href="#"  class="btn">Rent Now</a>
+             </div>
+
+             <div class="box">
+                <div class="box-img">
+                   <img src="img/car pics/vlad-kutepov-gvMsGzkx8eM-unsplash-min.jpg" alt="">
+                </div> 
+                <p>2016</p>
+                <h3>RAV4</h3>
+                <h2>R299000 | R6142 <span>/month</span></h2>
+                <a href="#"  class="btn">Rent Now</a>
+             </div>
+
+             <div class="box">
+                <div class="box-img">
+                   <img src="img/car pics/sahil-patel-7KFGoBwMCyI-unsplash-min.jpg" alt="">
+                </div> 
+                <p>2014</p>
+                <h3>Audi Q3</h3>
+                <h2>R179700| R3679 <span>/month</span></h2>
+                <a href="#"  class="btn">Rent Now</a>
+             </div>
+
+             <div class="box">
+                <div class="box-img">
+                   <img src="img/car pics/tabea-schimpf-O7WzqmeYoqc-unsplash-min.jpg" alt="">
+                </div> 
+                <p>2015</p>
+                <h3>Honda CRV </h3>
+                <h2>R289990 | R5976 <span>/month</span></h2>
+                <a href="#"  class="btn">Rent Now</a>
+             </div>
+
+             <div class="box">
+                <div class="box-img">
+                   <img src="img/car pics/jamie-street-jYVnwIc1H-c-unsplash-min.jpg" alt="">
+                </div> 
+                <p>2015</p>
+                <h3>2018 Hyundai Tucson</h3>
+                <h2>R279000| R5730 <span>/month</span></h2>
+                <a href="#"  class="btn">Rent Now</a>
+             </div>
+        </div>
+    </section>
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="heading">
+            <span>About Us</span>
+            <h1>Best Customer Experience</h1>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="img/car pics/about.png" alt="">
+            </div>
+            <div class="about-text">
+                <span>About Us</span>
+                <p>Welcome to [Your Company Name], your gateway to hassle-free and stylish car rentals. Whether you're traveling for business or pleasure, our diverse fleet offers reliable and affordable options for every occasion. Experience the freedom of the road with transparent pricing, easy booking, and a commitment to customer satisfaction. Drive with confidence and convenience – choose [Your Company Name] for your next journey.</p>
+                
+                <a href="#" class="btn">Learn More </a>
+            </div>
+        </div>
+    </section>
+    <!-- Reviews -->
+    <section class="reviews" id="reviews">
+        <div class="heading">
+            <span>Reviews</span>
+            <h1>What Our Customers Say</h1>
+        </div>
+        <div class="reviews-container">
+            <div class="box">
+                <div class="rev-img">
+                    <img src="img/car pics/rev1.jpg" alt="">
+                </div>
+                <h2>Gareth</h2>
+                <div class="stars">
+                    <i class='bx bxs-star'></i> 
+                    <i class='bx bxs-star'></i> 
+                    <i class='bx bxs-star'></i> 
+                    <i class='bx bxs-star'></i> 
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="rev-img">
+                    <img src="img/car pics/rev2.jpg" alt="">
+                </div>
+                <h2>John Doe</h2>
+                <div class="stars">
+                    <i class='bx bxs-star'></i> 
+                    <i class='bx bxs-star'></i> 
+                    <i class='bx bxs-star'></i> 
+                    <i class='bx bxs-star'></i> 
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="rev-img">
+                    <img src="img/car pics/rev3.jpg" alt="">
+                </div>
+                <h2>Sarah</h2>
+                <div class="stars">
+                    <i class='bx bxs-star'></i> 
+                    <i class='bx bxs-star'></i> 
+                    <i class='bx bxs-star'></i> 
+                    <i class='bx bxs-star'></i> 
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
+
+    <!-- Linkl to JS -->
+    <script src="mainr.js"></script>
+
+
+</body>
+</html> 
